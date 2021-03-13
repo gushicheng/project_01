@@ -51,7 +51,10 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {},
+    "rules": {
+      "no-multiple-empty-lines": "off",
+      "no-trailing-spaces": "off"
+    },
     "overrides": [
       {
         "files": [
